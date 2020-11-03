@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./imgs/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore itaque, amet, dolorem tempora,
+                    doloremque praesentium reprehenderit ex officia vero aliquam reiciendis. Tempora aspernatur dolorem
+                    pariatur ipsa omnis impedit numquam doloremque.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="./imgs/img1.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./imgs/thumb1.png" onclick="imgSlider('./imgs/img1.png');changCircleColor('#017143')"></li>
+            <li><img src="./imgs/thumb2.png" onclick="imgSlider('./imgs/img2.png');changCircleColor('#eb7495')"></li>
+            <li><img src="./imgs/thumb3.png" onclick="imgSlider('./imgs/img3.png');changCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img src="./imgs/facebook.png"></a></li>
+            <li><a href="#"><img src="./imgs/instagram.png"></a></li>
+            <li><a href="#"><img src="./imgs/twitter.png"></a></li>
+        </ul>
+    </section>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
